@@ -1,0 +1,44 @@
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+
+    See: http://bluerobot.com/web/css/center1.html
+    
+    Don't change the container width.
+  */
+  margin: 0 auto;  
+  width: 720px;
+}
+
+img {
+  height: auto;
+  width: 310px;
+}
+
+.left, .right {
+  float: left;
+  width: 300px;
+  margin: 0 30px;
+
+}
+
+.footer {
+  clear: both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* IE6&7 */
+}
+
+.footer {
+  clear: both;
+}
